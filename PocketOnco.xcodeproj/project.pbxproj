@@ -7,15 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C9DC626962B583CB76A0168 /* Pods_PocketOnco.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BA80342C918008D808F497F /* Pods_PocketOnco.framework */; };
+		F01E588521B79647007FD71E /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01E588421B79647007FD71E /* NavigationViewController.swift */; };
+		F01E588721B796CA007FD71E /* TabBarProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01E588621B796CA007FD71E /* TabBarProvider.swift */; };
+		F01E589021B79954007FD71E /* ExampleBackgroundContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01E588921B79954007FD71E /* ExampleBackgroundContentView.swift */; };
+		F01E589121B79954007FD71E /* ExampleBouncesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01E588A21B79954007FD71E /* ExampleBouncesContentView.swift */; };
+		F01E589221B79954007FD71E /* ExampleAnimateTipsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01E588B21B79954007FD71E /* ExampleAnimateTipsContentView.swift */; };
+		F01E589321B79954007FD71E /* ExampleBasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01E588C21B79954007FD71E /* ExampleBasicContentView.swift */; };
+		F01E589421B79954007FD71E /* ExampleHighlightableContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01E588D21B79954007FD71E /* ExampleHighlightableContentView.swift */; };
+		F01E589521B79954007FD71E /* ExampleTipsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01E588E21B79954007FD71E /* ExampleTipsContentView.swift */; };
+		F01E589621B79954007FD71E /* ExampleIrregularityContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01E588F21B79954007FD71E /* ExampleIrregularityContentView.swift */; };
 		F06A20F621B781C90075738C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06A20F521B781C90075738C /* AppDelegate.swift */; };
 		F06A20F821B781C90075738C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06A20F721B781C90075738C /* ViewController.swift */; };
 		F06A20FB21B781C90075738C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06A20F921B781C90075738C /* Main.storyboard */; };
 		F06A20FE21B781C90075738C /* PocketOnco.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F06A20FC21B781C90075738C /* PocketOnco.xcdatamodeld */; };
 		F06A210021B781CB0075738C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F06A20FF21B781CB0075738C /* Assets.xcassets */; };
 		F06A210321B781CB0075738C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06A210121B781CB0075738C /* LaunchScreen.storyboard */; };
+		F06A210B21B78F030075738C /* PlaceHolderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06A210A21B78F030075738C /* PlaceHolderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4BA80342C918008D808F497F /* Pods_PocketOnco.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PocketOnco.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65E99A7E2743FEFC60D46194 /* Pods-PocketOnco.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketOnco.release.xcconfig"; path = "Pods/Target Support Files/Pods-PocketOnco/Pods-PocketOnco.release.xcconfig"; sourceTree = "<group>"; };
+		865D97064830EDA4BCF589BA /* Pods-PocketOnco.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketOnco.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PocketOnco/Pods-PocketOnco.debug.xcconfig"; sourceTree = "<group>"; };
+		F01E588421B79647007FD71E /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		F01E588621B796CA007FD71E /* TabBarProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarProvider.swift; sourceTree = "<group>"; };
+		F01E588921B79954007FD71E /* ExampleBackgroundContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleBackgroundContentView.swift; sourceTree = "<group>"; };
+		F01E588A21B79954007FD71E /* ExampleBouncesContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleBouncesContentView.swift; sourceTree = "<group>"; };
+		F01E588B21B79954007FD71E /* ExampleAnimateTipsContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleAnimateTipsContentView.swift; sourceTree = "<group>"; };
+		F01E588C21B79954007FD71E /* ExampleBasicContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleBasicContentView.swift; sourceTree = "<group>"; };
+		F01E588D21B79954007FD71E /* ExampleHighlightableContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleHighlightableContentView.swift; sourceTree = "<group>"; };
+		F01E588E21B79954007FD71E /* ExampleTipsContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleTipsContentView.swift; sourceTree = "<group>"; };
+		F01E588F21B79954007FD71E /* ExampleIrregularityContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleIrregularityContentView.swift; sourceTree = "<group>"; };
 		F06A20F221B781C90075738C /* PocketOnco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketOnco.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F06A20F521B781C90075738C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F06A20F721B781C90075738C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +47,7 @@
 		F06A20FF21B781CB0075738C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F06A210221B781CB0075738C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F06A210421B781CB0075738C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F06A210A21B78F030075738C /* PlaceHolderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceHolderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C9DC626962B583CB76A0168 /* Pods_PocketOnco.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18FD05AC042CBD4C43E28C60 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				865D97064830EDA4BCF589BA /* Pods-PocketOnco.debug.xcconfig */,
+				65E99A7E2743FEFC60D46194 /* Pods-PocketOnco.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		62F6484DB361651BD1F57290 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BA80342C918008D808F497F /* Pods_PocketOnco.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F01E588821B79954007FD71E /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				F01E588921B79954007FD71E /* ExampleBackgroundContentView.swift */,
+				F01E588B21B79954007FD71E /* ExampleAnimateTipsContentView.swift */,
+				F01E588A21B79954007FD71E /* ExampleBouncesContentView.swift */,
+				F01E588C21B79954007FD71E /* ExampleBasicContentView.swift */,
+				F01E588D21B79954007FD71E /* ExampleHighlightableContentView.swift */,
+				F01E588E21B79954007FD71E /* ExampleTipsContentView.swift */,
+				F01E588F21B79954007FD71E /* ExampleIrregularityContentView.swift */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
 		F06A20E921B781C90075738C = {
 			isa = PBXGroup;
 			children = (
 				F06A20F421B781C90075738C /* PocketOnco */,
 				F06A20F321B781C90075738C /* Products */,
+				18FD05AC042CBD4C43E28C60 /* Pods */,
+				62F6484DB361651BD1F57290 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +114,12 @@
 		F06A20F421B781C90075738C /* PocketOnco */ = {
 			isa = PBXGroup;
 			children = (
+				F01E588821B79954007FD71E /* Content */,
 				F06A20F521B781C90075738C /* AppDelegate.swift */,
 				F06A20F721B781C90075738C /* ViewController.swift */,
+				F01E588421B79647007FD71E /* NavigationViewController.swift */,
+				F06A210A21B78F030075738C /* PlaceHolderViewController.swift */,
+				F01E588621B796CA007FD71E /* TabBarProvider.swift */,
 				F06A20F921B781C90075738C /* Main.storyboard */,
 				F06A20FF21B781CB0075738C /* Assets.xcassets */,
 				F06A210121B781CB0075738C /* LaunchScreen.storyboard */,
@@ -74,9 +136,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F06A210721B781CB0075738C /* Build configuration list for PBXNativeTarget "PocketOnco" */;
 			buildPhases = (
+				8617E077BD3299DEA6E66C27 /* [CP] Check Pods Manifest.lock */,
 				F06A20EE21B781C90075738C /* Sources */,
 				F06A20EF21B781C90075738C /* Frameworks */,
 				F06A20F021B781C90075738C /* Resources */,
+				D2A292B0A3406FFADB95D3B6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,13 +196,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8617E077BD3299DEA6E66C27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PocketOnco-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2A292B0A3406FFADB95D3B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PocketOnco/Pods-PocketOnco-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ESTabBarController-swift/ESTabBarController_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/Segmentio/Segmentio.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Segmentio.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PocketOnco/Pods-PocketOnco-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F06A20EE21B781C90075738C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F01E588521B79647007FD71E /* NavigationViewController.swift in Sources */,
+				F01E589121B79954007FD71E /* ExampleBouncesContentView.swift in Sources */,
+				F01E589421B79954007FD71E /* ExampleHighlightableContentView.swift in Sources */,
 				F06A20FE21B781C90075738C /* PocketOnco.xcdatamodeld in Sources */,
 				F06A20F821B781C90075738C /* ViewController.swift in Sources */,
+				F01E589521B79954007FD71E /* ExampleTipsContentView.swift in Sources */,
+				F01E589621B79954007FD71E /* ExampleIrregularityContentView.swift in Sources */,
+				F01E589021B79954007FD71E /* ExampleBackgroundContentView.swift in Sources */,
+				F01E588721B796CA007FD71E /* TabBarProvider.swift in Sources */,
+				F06A210B21B78F030075738C /* PlaceHolderViewController.swift in Sources */,
+				F01E589221B79954007FD71E /* ExampleAnimateTipsContentView.swift in Sources */,
+				F01E589321B79954007FD71E /* ExampleBasicContentView.swift in Sources */,
 				F06A20F621B781C90075738C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,11 +400,13 @@
 		};
 		F06A210821B781CB0075738C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 865D97064830EDA4BCF589BA /* Pods-PocketOnco.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4Q3B24WQDE;
 				INFOPLIST_FILE = PocketOnco/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,11 +420,13 @@
 		};
 		F06A210921B781CB0075738C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65E99A7E2743FEFC60D46194 /* Pods-PocketOnco.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4Q3B24WQDE;
 				INFOPLIST_FILE = PocketOnco/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
