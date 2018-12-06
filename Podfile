@@ -9,4 +9,7 @@ target 'PocketOnco' do
 pod 'Segmentio'
 pod "ESTabBarController-swift"
 pod 'pop', '~> 1.0'
+pod 'XLActionController'
+pod 'XLActionController/Skype'
+
 end

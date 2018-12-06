@@ -37,7 +37,7 @@ public class PlaceHolderViewController: UIViewController {
     let icon: UIButton = UIButton()
     let button: UIButton = UIButton()
     
-    let pages = ["PocketOnco", "Info", "New Diagnosis", "Develop", "About"]
+    
     
     public override func viewDidLoad() {
         super.viewDidLoad()
@@ -71,7 +71,7 @@ public class PlaceHolderViewController: UIViewController {
         case 2:
             break
         case 0, 1, 3, 4:
-            customTabBarController.title = pages[customTabBarController.selectedIndex]
+           break
         default: break
         }
        

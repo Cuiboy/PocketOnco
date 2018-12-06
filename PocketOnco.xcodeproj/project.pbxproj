@@ -17,6 +17,35 @@
 		F01E589421B79954007FD71E /* ExampleHighlightableContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01E588D21B79954007FD71E /* ExampleHighlightableContentView.swift */; };
 		F01E589521B79954007FD71E /* ExampleTipsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01E588E21B79954007FD71E /* ExampleTipsContentView.swift */; };
 		F01E589621B79954007FD71E /* ExampleIrregularityContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01E588F21B79954007FD71E /* ExampleIrregularityContentView.swift */; };
+		F03C3BF821B8442100B03587 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03C3BF621B8442100B03587 /* HomeViewController.swift */; };
+		F03C3BF921B8442100B03587 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F03C3BF721B8442100B03587 /* HomeViewController.xib */; };
+		F03C3BFC21B8457A00B03587 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03C3BFA21B8457A00B03587 /* InfoViewController.swift */; };
+		F03C3BFD21B8457A00B03587 /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F03C3BFB21B8457A00B03587 /* InfoViewController.xib */; };
+		F03C3C0021B8458E00B03587 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03C3BFE21B8458E00B03587 /* AboutViewController.swift */; };
+		F03C3C0121B8458E00B03587 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F03C3BFF21B8458E00B03587 /* AboutViewController.xib */; };
+		F03C3C0421B8459900B03587 /* DevViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03C3C0221B8459900B03587 /* DevViewController.swift */; };
+		F03C3C0521B8459900B03587 /* DevViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F03C3C0321B8459900B03587 /* DevViewController.xib */; };
+		F03C3C1A21B8490900B03587 /* Raleway-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F03C3C0721B8490900B03587 /* Raleway-BoldItalic.ttf */; };
+		F03C3C1B21B8490900B03587 /* Raleway-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F03C3C0821B8490900B03587 /* Raleway-MediumItalic.ttf */; };
+		F03C3C1C21B8490900B03587 /* Raleway-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F03C3C0921B8490900B03587 /* Raleway-ThinItalic.ttf */; };
+		F03C3C1D21B8490900B03587 /* Raleway-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F03C3C0A21B8490900B03587 /* Raleway-ExtraLight.ttf */; };
+		F03C3C1E21B8490900B03587 /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F03C3C0B21B8490900B03587 /* Raleway-Medium.ttf */; };
+		F03C3C1F21B8490900B03587 /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F03C3C0C21B8490900B03587 /* Raleway-SemiBold.ttf */; };
+		F03C3C2021B8490900B03587 /* Raleway-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F03C3C0D21B8490900B03587 /* Raleway-ExtraBold.ttf */; };
+		F03C3C2121B8490900B03587 /* Raleway-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F03C3C0E21B8490900B03587 /* Raleway-ExtraBoldItalic.ttf */; };
+		F03C3C2221B8490900B03587 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F03C3C0F21B8490900B03587 /* Raleway-Regular.ttf */; };
+		F03C3C2321B8490900B03587 /* Raleway-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F03C3C1021B8490900B03587 /* Raleway-ExtraLightItalic.ttf */; };
+		F03C3C2421B8490900B03587 /* Raleway-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F03C3C1121B8490900B03587 /* Raleway-SemiBoldItalic.ttf */; };
+		F03C3C2521B8490900B03587 /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F03C3C1221B8490900B03587 /* Raleway-Light.ttf */; };
+		F03C3C2621B8490900B03587 /* Raleway-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F03C3C1321B8490900B03587 /* Raleway-Black.ttf */; };
+		F03C3C2721B8490900B03587 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = F03C3C1421B8490900B03587 /* OFL.txt */; };
+		F03C3C2821B8490900B03587 /* Raleway-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F03C3C1521B8490900B03587 /* Raleway-BlackItalic.ttf */; };
+		F03C3C2921B8490900B03587 /* Raleway-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F03C3C1621B8490900B03587 /* Raleway-LightItalic.ttf */; };
+		F03C3C2A21B8490900B03587 /* Raleway-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F03C3C1721B8490900B03587 /* Raleway-Thin.ttf */; };
+		F03C3C2B21B8490900B03587 /* Raleway-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F03C3C1821B8490900B03587 /* Raleway-Italic.ttf */; };
+		F03C3C2C21B8490900B03587 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F03C3C1921B8490900B03587 /* Raleway-Bold.ttf */; };
+		F060E46A21B8ECE3008F7203 /* my_adjustFontSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F060E46921B8ECE3008F7203 /* my_adjustFontSize.swift */; };
+		F060E46D21B8F9A2008F7203 /* my_dropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F060E46C21B8F9A2008F7203 /* my_dropShadow.swift */; };
 		F06A20F621B781C90075738C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06A20F521B781C90075738C /* AppDelegate.swift */; };
 		F06A20F821B781C90075738C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06A20F721B781C90075738C /* ViewController.swift */; };
 		F06A20FB21B781C90075738C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06A20F921B781C90075738C /* Main.storyboard */; };
@@ -39,6 +68,35 @@
 		F01E588D21B79954007FD71E /* ExampleHighlightableContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleHighlightableContentView.swift; sourceTree = "<group>"; };
 		F01E588E21B79954007FD71E /* ExampleTipsContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleTipsContentView.swift; sourceTree = "<group>"; };
 		F01E588F21B79954007FD71E /* ExampleIrregularityContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleIrregularityContentView.swift; sourceTree = "<group>"; };
+		F03C3BF621B8442100B03587 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F03C3BF721B8442100B03587 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		F03C3BFA21B8457A00B03587 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		F03C3BFB21B8457A00B03587 /* InfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoViewController.xib; sourceTree = "<group>"; };
+		F03C3BFE21B8458E00B03587 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		F03C3BFF21B8458E00B03587 /* AboutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
+		F03C3C0221B8459900B03587 /* DevViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevViewController.swift; sourceTree = "<group>"; };
+		F03C3C0321B8459900B03587 /* DevViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DevViewController.xib; sourceTree = "<group>"; };
+		F03C3C0721B8490900B03587 /* Raleway-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-BoldItalic.ttf"; sourceTree = "<group>"; };
+		F03C3C0821B8490900B03587 /* Raleway-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-MediumItalic.ttf"; sourceTree = "<group>"; };
+		F03C3C0921B8490900B03587 /* Raleway-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ThinItalic.ttf"; sourceTree = "<group>"; };
+		F03C3C0A21B8490900B03587 /* Raleway-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraLight.ttf"; sourceTree = "<group>"; };
+		F03C3C0B21B8490900B03587 /* Raleway-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Medium.ttf"; sourceTree = "<group>"; };
+		F03C3C0C21B8490900B03587 /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		F03C3C0D21B8490900B03587 /* Raleway-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraBold.ttf"; sourceTree = "<group>"; };
+		F03C3C0E21B8490900B03587 /* Raleway-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		F03C3C0F21B8490900B03587 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		F03C3C1021B8490900B03587 /* Raleway-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		F03C3C1121B8490900B03587 /* Raleway-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		F03C3C1221B8490900B03587 /* Raleway-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Light.ttf"; sourceTree = "<group>"; };
+		F03C3C1321B8490900B03587 /* Raleway-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Black.ttf"; sourceTree = "<group>"; };
+		F03C3C1421B8490900B03587 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		F03C3C1521B8490900B03587 /* Raleway-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-BlackItalic.ttf"; sourceTree = "<group>"; };
+		F03C3C1621B8490900B03587 /* Raleway-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-LightItalic.ttf"; sourceTree = "<group>"; };
+		F03C3C1721B8490900B03587 /* Raleway-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Thin.ttf"; sourceTree = "<group>"; };
+		F03C3C1821B8490900B03587 /* Raleway-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Italic.ttf"; sourceTree = "<group>"; };
+		F03C3C1921B8490900B03587 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		F060E46921B8ECE3008F7203 /* my_adjustFontSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = my_adjustFontSize.swift; sourceTree = "<group>"; };
+		F060E46C21B8F9A2008F7203 /* my_dropShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = my_dropShadow.swift; sourceTree = "<group>"; };
 		F06A20F221B781C90075738C /* PocketOnco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketOnco.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F06A20F521B781C90075738C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F06A20F721B781C90075738C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,7 +140,7 @@
 		F01E588821B79954007FD71E /* Content */ = {
 			isa = PBXGroup;
 			children = (
-				F01E588921B79954007FD71E /* ExampleBackgroundContentView.swift */,
+				F060E46921B8ECE3008F7203 /* my_adjustFontSize.swift */,
 				F01E588B21B79954007FD71E /* ExampleAnimateTipsContentView.swift */,
 				F01E588A21B79954007FD71E /* ExampleBouncesContentView.swift */,
 				F01E588C21B79954007FD71E /* ExampleBasicContentView.swift */,
@@ -91,6 +149,41 @@
 				F01E588F21B79954007FD71E /* ExampleIrregularityContentView.swift */,
 			);
 			path = Content;
+			sourceTree = "<group>";
+		};
+		F03C3C0621B8490900B03587 /* Raleway */ = {
+			isa = PBXGroup;
+			children = (
+				F03C3C0721B8490900B03587 /* Raleway-BoldItalic.ttf */,
+				F03C3C0821B8490900B03587 /* Raleway-MediumItalic.ttf */,
+				F03C3C0921B8490900B03587 /* Raleway-ThinItalic.ttf */,
+				F03C3C0A21B8490900B03587 /* Raleway-ExtraLight.ttf */,
+				F03C3C0B21B8490900B03587 /* Raleway-Medium.ttf */,
+				F03C3C0C21B8490900B03587 /* Raleway-SemiBold.ttf */,
+				F03C3C0D21B8490900B03587 /* Raleway-ExtraBold.ttf */,
+				F03C3C0E21B8490900B03587 /* Raleway-ExtraBoldItalic.ttf */,
+				F03C3C0F21B8490900B03587 /* Raleway-Regular.ttf */,
+				F03C3C1021B8490900B03587 /* Raleway-ExtraLightItalic.ttf */,
+				F03C3C1121B8490900B03587 /* Raleway-SemiBoldItalic.ttf */,
+				F03C3C1221B8490900B03587 /* Raleway-Light.ttf */,
+				F03C3C1321B8490900B03587 /* Raleway-Black.ttf */,
+				F03C3C1421B8490900B03587 /* OFL.txt */,
+				F03C3C1521B8490900B03587 /* Raleway-BlackItalic.ttf */,
+				F03C3C1621B8490900B03587 /* Raleway-LightItalic.ttf */,
+				F03C3C1721B8490900B03587 /* Raleway-Thin.ttf */,
+				F03C3C1821B8490900B03587 /* Raleway-Italic.ttf */,
+				F03C3C1921B8490900B03587 /* Raleway-Bold.ttf */,
+			);
+			path = Raleway;
+			sourceTree = "<group>";
+		};
+		F060E46B21B8ECEF008F7203 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F060E46C21B8F9A2008F7203 /* my_dropShadow.swift */,
+				F01E588921B79954007FD71E /* ExampleBackgroundContentView.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		F06A20E921B781C90075738C = {
@@ -114,12 +207,22 @@
 		F06A20F421B781C90075738C /* PocketOnco */ = {
 			isa = PBXGroup;
 			children = (
+				F060E46B21B8ECEF008F7203 /* Extensions */,
+				F03C3C0621B8490900B03587 /* Raleway */,
 				F01E588821B79954007FD71E /* Content */,
 				F06A20F521B781C90075738C /* AppDelegate.swift */,
 				F06A20F721B781C90075738C /* ViewController.swift */,
 				F01E588421B79647007FD71E /* NavigationViewController.swift */,
 				F06A210A21B78F030075738C /* PlaceHolderViewController.swift */,
 				F01E588621B796CA007FD71E /* TabBarProvider.swift */,
+				F03C3BF621B8442100B03587 /* HomeViewController.swift */,
+				F03C3BFA21B8457A00B03587 /* InfoViewController.swift */,
+				F03C3BFE21B8458E00B03587 /* AboutViewController.swift */,
+				F03C3BFF21B8458E00B03587 /* AboutViewController.xib */,
+				F03C3C0221B8459900B03587 /* DevViewController.swift */,
+				F03C3C0321B8459900B03587 /* DevViewController.xib */,
+				F03C3BFB21B8457A00B03587 /* InfoViewController.xib */,
+				F03C3BF721B8442100B03587 /* HomeViewController.xib */,
 				F06A20F921B781C90075738C /* Main.storyboard */,
 				F06A20FF21B781CB0075738C /* Assets.xcassets */,
 				F06A210121B781CB0075738C /* LaunchScreen.storyboard */,
@@ -188,9 +291,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F03C3C2721B8490900B03587 /* OFL.txt in Resources */,
+				F03C3C2C21B8490900B03587 /* Raleway-Bold.ttf in Resources */,
 				F06A210321B781CB0075738C /* LaunchScreen.storyboard in Resources */,
+				F03C3C1E21B8490900B03587 /* Raleway-Medium.ttf in Resources */,
+				F03C3C0521B8459900B03587 /* DevViewController.xib in Resources */,
+				F03C3C2221B8490900B03587 /* Raleway-Regular.ttf in Resources */,
+				F03C3C2621B8490900B03587 /* Raleway-Black.ttf in Resources */,
+				F03C3C2921B8490900B03587 /* Raleway-LightItalic.ttf in Resources */,
 				F06A210021B781CB0075738C /* Assets.xcassets in Resources */,
+				F03C3C2321B8490900B03587 /* Raleway-ExtraLightItalic.ttf in Resources */,
+				F03C3C2A21B8490900B03587 /* Raleway-Thin.ttf in Resources */,
+				F03C3C2821B8490900B03587 /* Raleway-BlackItalic.ttf in Resources */,
+				F03C3C1B21B8490900B03587 /* Raleway-MediumItalic.ttf in Resources */,
+				F03C3C1A21B8490900B03587 /* Raleway-BoldItalic.ttf in Resources */,
+				F03C3C2021B8490900B03587 /* Raleway-ExtraBold.ttf in Resources */,
+				F03C3C2421B8490900B03587 /* Raleway-SemiBoldItalic.ttf in Resources */,
 				F06A20FB21B781C90075738C /* Main.storyboard in Resources */,
+				F03C3C2B21B8490900B03587 /* Raleway-Italic.ttf in Resources */,
+				F03C3BFD21B8457A00B03587 /* InfoViewController.xib in Resources */,
+				F03C3C0121B8458E00B03587 /* AboutViewController.xib in Resources */,
+				F03C3C1F21B8490900B03587 /* Raleway-SemiBold.ttf in Resources */,
+				F03C3C2121B8490900B03587 /* Raleway-ExtraBoldItalic.ttf in Resources */,
+				F03C3C1D21B8490900B03587 /* Raleway-ExtraLight.ttf in Resources */,
+				F03C3C2521B8490900B03587 /* Raleway-Light.ttf in Resources */,
+				F03C3BF921B8442100B03587 /* HomeViewController.xib in Resources */,
+				F03C3C1C21B8490900B03587 /* Raleway-ThinItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,12 +350,14 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-PocketOnco/Pods-PocketOnco-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ESTabBarController-swift/ESTabBarController_swift.framework",
 				"${BUILT_PRODUCTS_DIR}/Segmentio/Segmentio.framework",
+				"${BUILT_PRODUCTS_DIR}/XLActionController/XLActionController.framework",
 				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController_swift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Segmentio.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLActionController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,7 +376,9 @@
 				F01E589121B79954007FD71E /* ExampleBouncesContentView.swift in Sources */,
 				F01E589421B79954007FD71E /* ExampleHighlightableContentView.swift in Sources */,
 				F06A20FE21B781C90075738C /* PocketOnco.xcdatamodeld in Sources */,
+				F03C3BFC21B8457A00B03587 /* InfoViewController.swift in Sources */,
 				F06A20F821B781C90075738C /* ViewController.swift in Sources */,
+				F03C3BF821B8442100B03587 /* HomeViewController.swift in Sources */,
 				F01E589521B79954007FD71E /* ExampleTipsContentView.swift in Sources */,
 				F01E589621B79954007FD71E /* ExampleIrregularityContentView.swift in Sources */,
 				F01E589021B79954007FD71E /* ExampleBackgroundContentView.swift in Sources */,
@@ -256,6 +386,10 @@
 				F06A210B21B78F030075738C /* PlaceHolderViewController.swift in Sources */,
 				F01E589221B79954007FD71E /* ExampleAnimateTipsContentView.swift in Sources */,
 				F01E589321B79954007FD71E /* ExampleBasicContentView.swift in Sources */,
+				F060E46A21B8ECE3008F7203 /* my_adjustFontSize.swift in Sources */,
+				F060E46D21B8F9A2008F7203 /* my_dropShadow.swift in Sources */,
+				F03C3C0421B8459900B03587 /* DevViewController.swift in Sources */,
+				F03C3C0021B8458E00B03587 /* AboutViewController.swift in Sources */,
 				F06A20F621B781C90075738C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

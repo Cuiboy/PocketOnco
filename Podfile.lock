@@ -2,23 +2,32 @@ PODS:
   - ESTabBarController-swift (2.6.2)
   - pop (1.0.10)
   - Segmentio (3.0)
+  - XLActionController (4.1.0):
+    - XLActionController/Core (= 4.1.0)
+  - XLActionController/Core (4.1.0)
+  - XLActionController/Skype (4.1.0):
+    - XLActionController/Core
 
 DEPENDENCIES:
   - ESTabBarController-swift
   - pop (~> 1.0)
   - Segmentio
+  - XLActionController
+  - XLActionController/Skype
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - ESTabBarController-swift
     - pop
     - Segmentio
+    - XLActionController
 
 SPEC CHECKSUMS:
   ESTabBarController-swift: f0a8679e43df1e60b7b36bbcaf1dc98ba6273c7d
   pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
   Segmentio: 1607fba3b42230f5f91e997d1a3f337f1176674c
+  XLActionController: e8a8b38d3b226a69921e412e769d8483d1794064
 
-PODFILE CHECKSUM: 9df2cc2e911594171273cf733f48f9fc5a593cf2
+PODFILE CHECKSUM: 6710e8cc918abfa48915ec1c9aac2e3c116c489e
 
 COCOAPODS: 1.5.3

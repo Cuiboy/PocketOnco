@@ -4,6 +4,8 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>PocketOnco</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -29,8 +31,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
@@ -38,6 +38,26 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Raleway-BoldItalitc.ttf</string>
+		<string>Raleway-MediumItalic.ttf</string>
+		<string>Raleway-ThinItalic.ttf</string>
+		<string>Raleway-ExtraLight.ttf</string>
+		<string>Raleway-Medium.ttf</string>
+		<string>Raleway-SemiBold.ttf</string>
+		<string>Raleway-ExtraBold.ttf</string>
+		<string>Raleway-ExtraBoldItalic.ttf</string>
+		<string>Raleway-Regular.ttf</string>
+		<string>Raleway-ExtraLightItalic.ttf</string>
+		<string>Raleway-SemiBoldItalic.ttf</string>
+		<string>Raleway-Light.ttf</string>
+		<string>Raleway-Black.ttf</string>
+		<string>Raleway-BlackItalic.ttf</string>
+		<string>Raleway-Thin.ttf</string>
+		<string>Raleway-Italic.ttf</string>
+		<string>Raleway-Bold.ttf</string>
 	</array>
 </dict>
 </plist>
