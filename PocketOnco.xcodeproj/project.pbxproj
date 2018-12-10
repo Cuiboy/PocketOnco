@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		9C9DC626962B583CB76A0168 /* Pods_PocketOnco.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BA80342C918008D808F497F /* Pods_PocketOnco.framework */; };
+		F01180B721BC527500FE2478 /* ScanCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01180B521BC527500FE2478 /* ScanCollectionViewCell.swift */; };
+		F01180B821BC527500FE2478 /* ScanCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F01180B621BC527500FE2478 /* ScanCollectionViewCell.xib */; };
+		F01180BA21BC64F700FE2478 /* PersistentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01180B921BC64F700FE2478 /* PersistentService.swift */; };
+		F01180BD21BC670700FE2478 /* PickTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01180BB21BC670600FE2478 /* PickTypeViewController.swift */; };
+		F01180C121BC6B5300FE2478 /* PickTypeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01180BF21BC6B5300FE2478 /* PickTypeCollectionViewCell.swift */; };
+		F01180C221BC6B5300FE2478 /* PickTypeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F01180C021BC6B5300FE2478 /* PickTypeCollectionViewCell.xib */; };
 		F01E588521B79647007FD71E /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01E588421B79647007FD71E /* NavigationViewController.swift */; };
 		F01E588721B796CA007FD71E /* TabBarProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01E588621B796CA007FD71E /* TabBarProvider.swift */; };
 		F01E589021B79954007FD71E /* ExampleBackgroundContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01E588921B79954007FD71E /* ExampleBackgroundContentView.swift */; };
@@ -44,6 +50,8 @@
 		F03C3C2A21B8490900B03587 /* Raleway-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F03C3C1721B8490900B03587 /* Raleway-Thin.ttf */; };
 		F03C3C2B21B8490900B03587 /* Raleway-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F03C3C1821B8490900B03587 /* Raleway-Italic.ttf */; };
 		F03C3C2C21B8490900B03587 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F03C3C1921B8490900B03587 /* Raleway-Bold.ttf */; };
+		F053E77621BE330F00187F9E /* PopUpTreatmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F053E77521BE330F00187F9E /* PopUpTreatmentViewController.swift */; };
+		F053E77821BE3F8500187F9E /* ClinicalTrialsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F053E77721BE3F8500187F9E /* ClinicalTrialsViewController.swift */; };
 		F060E46A21B8ECE3008F7203 /* my_adjustFontSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F060E46921B8ECE3008F7203 /* my_adjustFontSize.swift */; };
 		F060E46D21B8F9A2008F7203 /* my_dropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F060E46C21B8F9A2008F7203 /* my_dropShadow.swift */; };
 		F06A20F621B781C90075738C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06A20F521B781C90075738C /* AppDelegate.swift */; };
@@ -53,12 +61,35 @@
 		F06A210021B781CB0075738C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F06A20FF21B781CB0075738C /* Assets.xcassets */; };
 		F06A210321B781CB0075738C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06A210121B781CB0075738C /* LaunchScreen.storyboard */; };
 		F06A210B21B78F030075738C /* PlaceHolderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06A210A21B78F030075738C /* PlaceHolderViewController.swift */; };
+		F0F0F7B421BC816100420595 /* colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F0F7B321BC816100420595 /* colors.swift */; };
+		F0F0F7B621BC968300420595 /* TakePictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F0F7B521BC968300420595 /* TakePictureViewController.swift */; };
+		F0F0F7B821BCC7C600420595 /* ImagePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F0F7B721BCC7C600420595 /* ImagePreviewViewController.swift */; };
+		F0F0F7BA21BCC8C900420595 /* OncoVision.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F0F7B921BCC8C900420595 /* OncoVision.swift */; };
+		F0F0F7BC21BCE48800420595 /* roundCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F0F7BB21BCE48800420595 /* roundCorners.swift */; };
+		F0FB3A4B21BD27C700BCD99A /* Colon_NormalCancerousRecognizer.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F0FB3A4521BD27C600BCD99A /* Colon_NormalCancerousRecognizer.mlmodel */; };
+		F0FB3A4C21BD27C700BCD99A /* Colon_BenignMalignant.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F0FB3A4621BD27C600BCD99A /* Colon_BenignMalignant.mlmodel */; };
+		F0FB3A4D21BD27C700BCD99A /* Breast_NormalCancerousRecognizer.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F0FB3A4721BD27C600BCD99A /* Breast_NormalCancerousRecognizer.mlmodel */; };
+		F0FB3A4E21BD27C700BCD99A /* Colon_StageGrade.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F0FB3A4821BD27C600BCD99A /* Colon_StageGrade.mlmodel */; };
+		F0FB3A5021BD27C700BCD99A /* Breast_StageGrade.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F0FB3A4A21BD27C700BCD99A /* Breast_StageGrade.mlmodel */; };
+		F0FB3A5421BDA9BA00BCD99A /* skinImageRecognizer.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F0FB3A5121BDA9B900BCD99A /* skinImageRecognizer.mlmodel */; };
+		F0FB3A5521BDA9BA00BCD99A /* histopathologyRecognizer.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F0FB3A5221BDA9B900BCD99A /* histopathologyRecognizer.mlmodel */; };
+		F0FB3A5621BDA9BA00BCD99A /* Skin_NormalCancerousRecognizer.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F0FB3A5321BDA9BA00BCD99A /* Skin_NormalCancerousRecognizer.mlmodel */; };
+		F0FB3A5821BDB6FF00BCD99A /* Skin_Diagnosis.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F0FB3A5721BDB6FB00BCD99A /* Skin_Diagnosis.mlmodel */; };
+		F0FB3A5A21BDC5B500BCD99A /* ImageAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FB3A5921BDC5B500BCD99A /* ImageAnalysis.swift */; };
+		F0FB3A5E21BDDD5500BCD99A /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FB3A5D21BDDD5500BCD99A /* Analytics.swift */; };
+		F0FB3A6021BDF4E700BCD99A /* ScanDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FB3A5F21BDF4E700BCD99A /* ScanDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4BA80342C918008D808F497F /* Pods_PocketOnco.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PocketOnco.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65E99A7E2743FEFC60D46194 /* Pods-PocketOnco.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketOnco.release.xcconfig"; path = "Pods/Target Support Files/Pods-PocketOnco/Pods-PocketOnco.release.xcconfig"; sourceTree = "<group>"; };
 		865D97064830EDA4BCF589BA /* Pods-PocketOnco.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketOnco.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PocketOnco/Pods-PocketOnco.debug.xcconfig"; sourceTree = "<group>"; };
+		F01180B521BC527500FE2478 /* ScanCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanCollectionViewCell.swift; sourceTree = "<group>"; };
+		F01180B621BC527500FE2478 /* ScanCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScanCollectionViewCell.xib; sourceTree = "<group>"; };
+		F01180B921BC64F700FE2478 /* PersistentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentService.swift; sourceTree = "<group>"; };
+		F01180BB21BC670600FE2478 /* PickTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickTypeViewController.swift; sourceTree = "<group>"; };
+		F01180BF21BC6B5300FE2478 /* PickTypeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickTypeCollectionViewCell.swift; sourceTree = "<group>"; };
+		F01180C021BC6B5300FE2478 /* PickTypeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PickTypeCollectionViewCell.xib; sourceTree = "<group>"; };
 		F01E588421B79647007FD71E /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 		F01E588621B796CA007FD71E /* TabBarProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarProvider.swift; sourceTree = "<group>"; };
 		F01E588921B79954007FD71E /* ExampleBackgroundContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleBackgroundContentView.swift; sourceTree = "<group>"; };
@@ -95,6 +126,8 @@
 		F03C3C1721B8490900B03587 /* Raleway-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Thin.ttf"; sourceTree = "<group>"; };
 		F03C3C1821B8490900B03587 /* Raleway-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Italic.ttf"; sourceTree = "<group>"; };
 		F03C3C1921B8490900B03587 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		F053E77521BE330F00187F9E /* PopUpTreatmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpTreatmentViewController.swift; sourceTree = "<group>"; };
+		F053E77721BE3F8500187F9E /* ClinicalTrialsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicalTrialsViewController.swift; sourceTree = "<group>"; };
 		F060E46921B8ECE3008F7203 /* my_adjustFontSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = my_adjustFontSize.swift; sourceTree = "<group>"; };
 		F060E46C21B8F9A2008F7203 /* my_dropShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = my_dropShadow.swift; sourceTree = "<group>"; };
 		F06A20F221B781C90075738C /* PocketOnco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketOnco.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,6 +139,24 @@
 		F06A210221B781CB0075738C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F06A210421B781CB0075738C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F06A210A21B78F030075738C /* PlaceHolderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceHolderViewController.swift; sourceTree = "<group>"; };
+		F0E3FB0E21BE197600E3468C /* futura medium bt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "futura medium bt.ttf"; sourceTree = "<group>"; };
+		F0F0F7B321BC816100420595 /* colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colors.swift; sourceTree = "<group>"; };
+		F0F0F7B521BC968300420595 /* TakePictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakePictureViewController.swift; sourceTree = "<group>"; };
+		F0F0F7B721BCC7C600420595 /* ImagePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreviewViewController.swift; sourceTree = "<group>"; };
+		F0F0F7B921BCC8C900420595 /* OncoVision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OncoVision.swift; sourceTree = "<group>"; };
+		F0F0F7BB21BCE48800420595 /* roundCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roundCorners.swift; sourceTree = "<group>"; };
+		F0FB3A4521BD27C600BCD99A /* Colon_NormalCancerousRecognizer.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Colon_NormalCancerousRecognizer.mlmodel; sourceTree = "<group>"; };
+		F0FB3A4621BD27C600BCD99A /* Colon_BenignMalignant.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Colon_BenignMalignant.mlmodel; sourceTree = "<group>"; };
+		F0FB3A4721BD27C600BCD99A /* Breast_NormalCancerousRecognizer.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Breast_NormalCancerousRecognizer.mlmodel; sourceTree = "<group>"; };
+		F0FB3A4821BD27C600BCD99A /* Colon_StageGrade.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Colon_StageGrade.mlmodel; sourceTree = "<group>"; };
+		F0FB3A4A21BD27C700BCD99A /* Breast_StageGrade.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Breast_StageGrade.mlmodel; sourceTree = "<group>"; };
+		F0FB3A5121BDA9B900BCD99A /* skinImageRecognizer.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = skinImageRecognizer.mlmodel; sourceTree = "<group>"; };
+		F0FB3A5221BDA9B900BCD99A /* histopathologyRecognizer.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = histopathologyRecognizer.mlmodel; path = ../../../Models/histopathologyRecognizer.mlmodel; sourceTree = "<group>"; };
+		F0FB3A5321BDA9BA00BCD99A /* Skin_NormalCancerousRecognizer.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Skin_NormalCancerousRecognizer.mlmodel; sourceTree = "<group>"; };
+		F0FB3A5721BDB6FB00BCD99A /* Skin_Diagnosis.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Skin_Diagnosis.mlmodel; sourceTree = "<group>"; };
+		F0FB3A5921BDC5B500BCD99A /* ImageAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAnalysis.swift; sourceTree = "<group>"; };
+		F0FB3A5D21BDDD5500BCD99A /* Analytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
+		F0FB3A5F21BDF4E700BCD99A /* ScanDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,7 +191,6 @@
 		F01E588821B79954007FD71E /* Content */ = {
 			isa = PBXGroup;
 			children = (
-				F060E46921B8ECE3008F7203 /* my_adjustFontSize.swift */,
 				F01E588B21B79954007FD71E /* ExampleAnimateTipsContentView.swift */,
 				F01E588A21B79954007FD71E /* ExampleBouncesContentView.swift */,
 				F01E588C21B79954007FD71E /* ExampleBasicContentView.swift */,
@@ -154,6 +204,7 @@
 		F03C3C0621B8490900B03587 /* Raleway */ = {
 			isa = PBXGroup;
 			children = (
+				F0E3FB0E21BE197600E3468C /* futura medium bt.ttf */,
 				F03C3C0721B8490900B03587 /* Raleway-BoldItalic.ttf */,
 				F03C3C0821B8490900B03587 /* Raleway-MediumItalic.ttf */,
 				F03C3C0921B8490900B03587 /* Raleway-ThinItalic.ttf */,
@@ -180,8 +231,12 @@
 		F060E46B21B8ECEF008F7203 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				F060E46921B8ECE3008F7203 /* my_adjustFontSize.swift */,
+				F01180B921BC64F700FE2478 /* PersistentService.swift */,
 				F060E46C21B8F9A2008F7203 /* my_dropShadow.swift */,
 				F01E588921B79954007FD71E /* ExampleBackgroundContentView.swift */,
+				F0F0F7B321BC816100420595 /* colors.swift */,
+				F0F0F7BB21BCE48800420595 /* roundCorners.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -207,15 +262,48 @@
 		F06A20F421B781C90075738C /* PocketOnco */ = {
 			isa = PBXGroup;
 			children = (
+				F0FB3A4421BD27AF00BCD99A /* ML Models */,
+				F0FB3A4321BD278700BCD99A /* Views */,
+				F0FB3A4221BD273B00BCD99A /* Sources */,
 				F060E46B21B8ECEF008F7203 /* Extensions */,
 				F03C3C0621B8490900B03587 /* Raleway */,
 				F01E588821B79954007FD71E /* Content */,
+				F06A20FF21B781CB0075738C /* Assets.xcassets */,
+				F06A210421B781CB0075738C /* Info.plist */,
+				F06A20FC21B781C90075738C /* PocketOnco.xcdatamodeld */,
+			);
+			path = PocketOnco;
+			sourceTree = "<group>";
+		};
+		F0FB3A4221BD273B00BCD99A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F0F0F7B921BCC8C900420595 /* OncoVision.swift */,
+				F0FB3A5921BDC5B500BCD99A /* ImageAnalysis.swift */,
+				F0FB3A5D21BDDD5500BCD99A /* Analytics.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F0FB3A4321BD278700BCD99A /* Views */ = {
+			isa = PBXGroup;
+			children = (
 				F06A20F521B781C90075738C /* AppDelegate.swift */,
 				F06A20F721B781C90075738C /* ViewController.swift */,
 				F01E588421B79647007FD71E /* NavigationViewController.swift */,
 				F06A210A21B78F030075738C /* PlaceHolderViewController.swift */,
 				F01E588621B796CA007FD71E /* TabBarProvider.swift */,
 				F03C3BF621B8442100B03587 /* HomeViewController.swift */,
+				F01180B521BC527500FE2478 /* ScanCollectionViewCell.swift */,
+				F01180B621BC527500FE2478 /* ScanCollectionViewCell.xib */,
+				F01180BB21BC670600FE2478 /* PickTypeViewController.swift */,
+				F01180BF21BC6B5300FE2478 /* PickTypeCollectionViewCell.swift */,
+				F0F0F7B721BCC7C600420595 /* ImagePreviewViewController.swift */,
+				F0FB3A5F21BDF4E700BCD99A /* ScanDetailViewController.swift */,
+				F053E77521BE330F00187F9E /* PopUpTreatmentViewController.swift */,
+				F053E77721BE3F8500187F9E /* ClinicalTrialsViewController.swift */,
+				F01180C021BC6B5300FE2478 /* PickTypeCollectionViewCell.xib */,
+				F0F0F7B521BC968300420595 /* TakePictureViewController.swift */,
 				F03C3BFA21B8457A00B03587 /* InfoViewController.swift */,
 				F03C3BFE21B8458E00B03587 /* AboutViewController.swift */,
 				F03C3BFF21B8458E00B03587 /* AboutViewController.xib */,
@@ -224,12 +312,25 @@
 				F03C3BFB21B8457A00B03587 /* InfoViewController.xib */,
 				F03C3BF721B8442100B03587 /* HomeViewController.xib */,
 				F06A20F921B781C90075738C /* Main.storyboard */,
-				F06A20FF21B781CB0075738C /* Assets.xcassets */,
 				F06A210121B781CB0075738C /* LaunchScreen.storyboard */,
-				F06A210421B781CB0075738C /* Info.plist */,
-				F06A20FC21B781C90075738C /* PocketOnco.xcdatamodeld */,
 			);
-			path = PocketOnco;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F0FB3A4421BD27AF00BCD99A /* ML Models */ = {
+			isa = PBXGroup;
+			children = (
+				F0FB3A5721BDB6FB00BCD99A /* Skin_Diagnosis.mlmodel */,
+				F0FB3A5221BDA9B900BCD99A /* histopathologyRecognizer.mlmodel */,
+				F0FB3A5321BDA9BA00BCD99A /* Skin_NormalCancerousRecognizer.mlmodel */,
+				F0FB3A5121BDA9B900BCD99A /* skinImageRecognizer.mlmodel */,
+				F0FB3A4721BD27C600BCD99A /* Breast_NormalCancerousRecognizer.mlmodel */,
+				F0FB3A4A21BD27C700BCD99A /* Breast_StageGrade.mlmodel */,
+				F0FB3A4621BD27C600BCD99A /* Colon_BenignMalignant.mlmodel */,
+				F0FB3A4521BD27C600BCD99A /* Colon_NormalCancerousRecognizer.mlmodel */,
+				F0FB3A4821BD27C600BCD99A /* Colon_StageGrade.mlmodel */,
+			);
+			path = "ML Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,12 +401,14 @@
 				F03C3C2621B8490900B03587 /* Raleway-Black.ttf in Resources */,
 				F03C3C2921B8490900B03587 /* Raleway-LightItalic.ttf in Resources */,
 				F06A210021B781CB0075738C /* Assets.xcassets in Resources */,
+				F01180B821BC527500FE2478 /* ScanCollectionViewCell.xib in Resources */,
 				F03C3C2321B8490900B03587 /* Raleway-ExtraLightItalic.ttf in Resources */,
 				F03C3C2A21B8490900B03587 /* Raleway-Thin.ttf in Resources */,
 				F03C3C2821B8490900B03587 /* Raleway-BlackItalic.ttf in Resources */,
 				F03C3C1B21B8490900B03587 /* Raleway-MediumItalic.ttf in Resources */,
 				F03C3C1A21B8490900B03587 /* Raleway-BoldItalic.ttf in Resources */,
 				F03C3C2021B8490900B03587 /* Raleway-ExtraBold.ttf in Resources */,
+				F01180C221BC6B5300FE2478 /* PickTypeCollectionViewCell.xib in Resources */,
 				F03C3C2421B8490900B03587 /* Raleway-SemiBoldItalic.ttf in Resources */,
 				F06A20FB21B781C90075738C /* Main.storyboard in Resources */,
 				F03C3C2B21B8490900B03587 /* Raleway-Italic.ttf in Resources */,
@@ -348,16 +451,26 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-PocketOnco/Pods-PocketOnco-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ALCameraViewController/ALCameraViewController.framework",
 				"${BUILT_PRODUCTS_DIR}/ESTabBarController-swift/ESTabBarController_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/Presentr/Presentr.framework",
 				"${BUILT_PRODUCTS_DIR}/Segmentio/Segmentio.framework",
+				"${BUILT_PRODUCTS_DIR}/ViewAnimator/ViewAnimator.framework",
 				"${BUILT_PRODUCTS_DIR}/XLActionController/XLActionController.framework",
+				"${BUILT_PRODUCTS_DIR}/expanding-collection/expanding_collection.framework",
 				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ALCameraViewController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Presentr.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Segmentio.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ViewAnimator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLActionController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/expanding_collection.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,6 +486,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F01E588521B79647007FD71E /* NavigationViewController.swift in Sources */,
+				F0FB3A4E21BD27C700BCD99A /* Colon_StageGrade.mlmodel in Sources */,
+				F0FB3A5421BDA9BA00BCD99A /* skinImageRecognizer.mlmodel in Sources */,
+				F0FB3A4C21BD27C700BCD99A /* Colon_BenignMalignant.mlmodel in Sources */,
+				F0F0F7B421BC816100420595 /* colors.swift in Sources */,
+				F0FB3A5021BD27C700BCD99A /* Breast_StageGrade.mlmodel in Sources */,
+				F053E77821BE3F8500187F9E /* ClinicalTrialsViewController.swift in Sources */,
+				F01180BD21BC670700FE2478 /* PickTypeViewController.swift in Sources */,
 				F01E589121B79954007FD71E /* ExampleBouncesContentView.swift in Sources */,
 				F01E589421B79954007FD71E /* ExampleHighlightableContentView.swift in Sources */,
 				F06A20FE21B781C90075738C /* PocketOnco.xcdatamodeld in Sources */,
@@ -380,17 +500,33 @@
 				F06A20F821B781C90075738C /* ViewController.swift in Sources */,
 				F03C3BF821B8442100B03587 /* HomeViewController.swift in Sources */,
 				F01E589521B79954007FD71E /* ExampleTipsContentView.swift in Sources */,
+				F0FB3A5E21BDDD5500BCD99A /* Analytics.swift in Sources */,
 				F01E589621B79954007FD71E /* ExampleIrregularityContentView.swift in Sources */,
 				F01E589021B79954007FD71E /* ExampleBackgroundContentView.swift in Sources */,
 				F01E588721B796CA007FD71E /* TabBarProvider.swift in Sources */,
+				F0F0F7BC21BCE48800420595 /* roundCorners.swift in Sources */,
 				F06A210B21B78F030075738C /* PlaceHolderViewController.swift in Sources */,
 				F01E589221B79954007FD71E /* ExampleAnimateTipsContentView.swift in Sources */,
+				F0FB3A5821BDB6FF00BCD99A /* Skin_Diagnosis.mlmodel in Sources */,
+				F0FB3A4B21BD27C700BCD99A /* Colon_NormalCancerousRecognizer.mlmodel in Sources */,
 				F01E589321B79954007FD71E /* ExampleBasicContentView.swift in Sources */,
+				F0FB3A5A21BDC5B500BCD99A /* ImageAnalysis.swift in Sources */,
 				F060E46A21B8ECE3008F7203 /* my_adjustFontSize.swift in Sources */,
+				F0FB3A4D21BD27C700BCD99A /* Breast_NormalCancerousRecognizer.mlmodel in Sources */,
+				F01180BA21BC64F700FE2478 /* PersistentService.swift in Sources */,
+				F0F0F7BA21BCC8C900420595 /* OncoVision.swift in Sources */,
+				F0FB3A5621BDA9BA00BCD99A /* Skin_NormalCancerousRecognizer.mlmodel in Sources */,
+				F01180B721BC527500FE2478 /* ScanCollectionViewCell.swift in Sources */,
 				F060E46D21B8F9A2008F7203 /* my_dropShadow.swift in Sources */,
+				F0FB3A6021BDF4E700BCD99A /* ScanDetailViewController.swift in Sources */,
+				F01180C121BC6B5300FE2478 /* PickTypeCollectionViewCell.swift in Sources */,
 				F03C3C0421B8459900B03587 /* DevViewController.swift in Sources */,
+				F0F0F7B621BC968300420595 /* TakePictureViewController.swift in Sources */,
+				F0FB3A5521BDA9BA00BCD99A /* histopathologyRecognizer.mlmodel in Sources */,
 				F03C3C0021B8458E00B03587 /* AboutViewController.swift in Sources */,
+				F0F0F7B821BCC7C600420595 /* ImagePreviewViewController.swift in Sources */,
 				F06A20F621B781C90075738C /* AppDelegate.swift in Sources */,
+				F053E77621BE330F00187F9E /* PopUpTreatmentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

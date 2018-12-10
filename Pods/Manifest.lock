@@ -1,7 +1,14 @@
 PODS:
+  - ALCameraViewController (3.0.3)
   - ESTabBarController-swift (2.6.2)
+  - expanding-collection (3.0.0)
+  - NVActivityIndicatorView (4.4.0):
+    - NVActivityIndicatorView/Presenter (= 4.4.0)
+  - NVActivityIndicatorView/Presenter (4.4.0)
   - pop (1.0.10)
+  - Presentr (1.3.2)
   - Segmentio (3.0)
+  - ViewAnimator (2.2.0)
   - XLActionController (4.1.0):
     - XLActionController/Core (= 4.1.0)
   - XLActionController/Core (4.1.0)
@@ -9,25 +16,40 @@ PODS:
     - XLActionController/Core
 
 DEPENDENCIES:
+  - ALCameraViewController
   - ESTabBarController-swift
+  - expanding-collection
+  - NVActivityIndicatorView
   - pop (~> 1.0)
+  - Presentr
   - Segmentio
+  - ViewAnimator
   - XLActionController
   - XLActionController/Skype
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - ALCameraViewController
     - ESTabBarController-swift
+    - expanding-collection
+    - NVActivityIndicatorView
     - pop
+    - Presentr
     - Segmentio
+    - ViewAnimator
     - XLActionController
 
 SPEC CHECKSUMS:
+  ALCameraViewController: 6398a9282057f709b87a1ecc52a83b48028ade64
   ESTabBarController-swift: f0a8679e43df1e60b7b36bbcaf1dc98ba6273c7d
+  expanding-collection: 008241debdc263d25e230d6a0824a558a8f2755c
+  NVActivityIndicatorView: ec7440a57af2450319d3a4181cca7da6fc127064
   pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
+  Presentr: 797ae6ec8904eaba4ec58a4c2065bd66e31569ea
   Segmentio: 1607fba3b42230f5f91e997d1a3f337f1176674c
+  ViewAnimator: a849844cc3698620e1a562b510ed0c28aeafcdc5
   XLActionController: e8a8b38d3b226a69921e412e769d8483d1794064
 
-PODFILE CHECKSUM: 6710e8cc918abfa48915ec1c9aac2e3c116c489e
+PODFILE CHECKSUM: 7e99e882bc925fecedbd7dd1eb31a869c788dee7
 
 COCOAPODS: 1.5.3

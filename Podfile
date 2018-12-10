@@ -11,5 +11,11 @@ pod "ESTabBarController-swift"
 pod 'pop', '~> 1.0'
 pod 'XLActionController'
 pod 'XLActionController/Skype'
+pod 'expanding-collection'
+pod 'ViewAnimator'
+pod 'ALCameraViewController'
+pod 'NVActivityIndicatorView'
+pod 'Presentr'
+
 
 end
