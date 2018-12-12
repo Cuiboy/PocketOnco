@@ -31,14 +31,39 @@ class ScanDetailViewController: UIViewController, UIGestureRecognizerDelegate {
         customPresentViewController(presenter, viewController: popup, animated: true)
     }
 
+    @IBAction func saveTapped(_ sender: Any) {
+       let tumorObject = Tumor(context: PersistentService.context)
+        tumorObject.setValue(name, forKey: "type")
+        tumorObject.setValue(type.text, forKey: "name")
+        let imageData = NSData(data: tumorImage.pngData()!)
+        tumorObject.setValue(imageData, forKey: "image")
+        
+        if tumor != nil {
+            tumorObject.setValue(false, forKey: "isHealthy")
+            tumorObject.setValue(tumor!.cancerStage, forKey: "stage")
+            tumorObject.setValue(tumor!.cancerGrade, forKey: "grade")
+         
+        } else {
+            tumorObject.setValue(true, forKey: "isHealthy")
+            
+        }
+        
+        PersistentService.saveContext()
+        dismiss(animated: true, completion: nil)
+    }
     
     @IBAction func discardTapped(_ sender: Any) {
-        let ac = UIAlertController(title: "Discard Image?", message: "Your image will not be saved.", preferredStyle: .alert)
-        ac.addAction(UIAlertAction(title: "Yes", style: .destructive, handler: { (_) in
-            self.dismiss(animated: true, completion: nil)
-        }))
-        ac.addAction(UIAlertAction(title: "No", style: .cancel, handler: nil))
-        present(ac, animated: true)
+        if ScanDetailViewController.isPresenting {
+            dismiss(animated: true)
+        } else {
+            let ac = UIAlertController(title: "Discard Image?", message: "Your image will not be saved.", preferredStyle: .alert)
+            ac.addAction(UIAlertAction(title: "Yes", style: .destructive, handler: { (_) in
+                self.dismiss(animated: true, completion: nil)
+            }))
+            ac.addAction(UIAlertAction(title: "No", style: .cancel, handler: nil))
+            present(ac, animated: true)
+        }
+       
     }
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var primaryInfo: UILabel!
@@ -53,6 +78,7 @@ class ScanDetailViewController: UIViewController, UIGestureRecognizerDelegate {
     
     var tumor: Analytics?
     static var isHealthy = Bool()
+    static var isPresenting = Bool()
     var tumorImage = UIImage()
     var tumorType: tumorTypes?
     let stages = ["I", "II", "III"]
@@ -143,6 +169,7 @@ class ScanDetailViewController: UIViewController, UIGestureRecognizerDelegate {
             rightButtonView.layer.borderWidth = 2
             rightButtonView.layer.borderColor = darkColor.cgColor
         } else {
+      
             leftButtonView.isHidden = true
             rightButtonView.isHidden = true
             leftLabel.isHidden = true

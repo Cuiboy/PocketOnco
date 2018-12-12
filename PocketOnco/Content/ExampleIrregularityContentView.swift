@@ -2,8 +2,7 @@
 //  ExampleIrregularityContentView.swift
 //  ESTabBarControllerExample
 //
-//  Created by lihao on 2017/2/9.
-//  Copyright © 2018年 Egg Swift. All rights reserved.
+
 //
 
 import UIKit
@@ -19,9 +18,10 @@ class ExampleIrregularityBasicContentView: ExampleBouncesContentView {
         highlightTextColor = UIColor.init(red: 23/255.0, green: 149/255.0, blue: 158/255.0, alpha: 1.0)
         iconColor = UIColor.init(white: 155.0 / 255.0, alpha: 1.0)
         highlightIconColor = UIColor.init(red: 23/255.0, green: 149/255.0, blue: 158/255.0, alpha: 1.0)
-        backdropColor = UIColor.init(red:0.976, green:0.976, blue:0.976, alpha:1.00)
+        backdropColor = .clear
+            //UIColor.init(red:0.976, green:0.976, blue:0.976, alpha:1.00)
 
-        highlightBackdropColor = UIColor.init(red:0.976, green:0.976, blue:0.976, alpha:1.00)
+        highlightBackdropColor = .clear
     }
     
     public required init?(coder aDecoder: NSCoder) {

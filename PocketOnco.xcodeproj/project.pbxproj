@@ -66,6 +66,10 @@
 		F0F0F7B821BCC7C600420595 /* ImagePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F0F7B721BCC7C600420595 /* ImagePreviewViewController.swift */; };
 		F0F0F7BA21BCC8C900420595 /* OncoVision.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F0F7B921BCC8C900420595 /* OncoVision.swift */; };
 		F0F0F7BC21BCE48800420595 /* roundCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F0F7BB21BCE48800420595 /* roundCorners.swift */; };
+		F0F5641021BEC9B000E87E30 /* TumorScan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F5640F21BEC9B000E87E30 /* TumorScan.swift */; };
+		F0F5641321BECC2600E87E30 /* Tumor+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F5641121BECC2600E87E30 /* Tumor+CoreDataClass.swift */; };
+		F0F5641421BECC2600E87E30 /* Tumor+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F5641221BECC2600E87E30 /* Tumor+CoreDataProperties.swift */; };
+		F0F5641621C0BB8800E87E30 /* my_parentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F5641521C0BB8800E87E30 /* my_parentViewController.swift */; };
 		F0FB3A4B21BD27C700BCD99A /* Colon_NormalCancerousRecognizer.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F0FB3A4521BD27C600BCD99A /* Colon_NormalCancerousRecognizer.mlmodel */; };
 		F0FB3A4C21BD27C700BCD99A /* Colon_BenignMalignant.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F0FB3A4621BD27C600BCD99A /* Colon_BenignMalignant.mlmodel */; };
 		F0FB3A4D21BD27C700BCD99A /* Breast_NormalCancerousRecognizer.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F0FB3A4721BD27C600BCD99A /* Breast_NormalCancerousRecognizer.mlmodel */; };
@@ -145,6 +149,10 @@
 		F0F0F7B721BCC7C600420595 /* ImagePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreviewViewController.swift; sourceTree = "<group>"; };
 		F0F0F7B921BCC8C900420595 /* OncoVision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OncoVision.swift; sourceTree = "<group>"; };
 		F0F0F7BB21BCE48800420595 /* roundCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roundCorners.swift; sourceTree = "<group>"; };
+		F0F5640F21BEC9B000E87E30 /* TumorScan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TumorScan.swift; sourceTree = "<group>"; };
+		F0F5641121BECC2600E87E30 /* Tumor+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Tumor+CoreDataClass.swift"; path = "CoreData Subclass/Tumor+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F0F5641221BECC2600E87E30 /* Tumor+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Tumor+CoreDataProperties.swift"; path = "CoreData Subclass/Tumor+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F0F5641521C0BB8800E87E30 /* my_parentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = my_parentViewController.swift; sourceTree = "<group>"; };
 		F0FB3A4521BD27C600BCD99A /* Colon_NormalCancerousRecognizer.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Colon_NormalCancerousRecognizer.mlmodel; sourceTree = "<group>"; };
 		F0FB3A4621BD27C600BCD99A /* Colon_BenignMalignant.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Colon_BenignMalignant.mlmodel; sourceTree = "<group>"; };
 		F0FB3A4721BD27C600BCD99A /* Breast_NormalCancerousRecognizer.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Breast_NormalCancerousRecognizer.mlmodel; sourceTree = "<group>"; };
@@ -232,6 +240,7 @@
 			isa = PBXGroup;
 			children = (
 				F060E46921B8ECE3008F7203 /* my_adjustFontSize.swift */,
+				F0F5641521C0BB8800E87E30 /* my_parentViewController.swift */,
 				F01180B921BC64F700FE2478 /* PersistentService.swift */,
 				F060E46C21B8F9A2008F7203 /* my_dropShadow.swift */,
 				F01E588921B79954007FD71E /* ExampleBackgroundContentView.swift */,
@@ -262,6 +271,8 @@
 		F06A20F421B781C90075738C /* PocketOnco */ = {
 			isa = PBXGroup;
 			children = (
+				F0F5641121BECC2600E87E30 /* Tumor+CoreDataClass.swift */,
+				F0F5641221BECC2600E87E30 /* Tumor+CoreDataProperties.swift */,
 				F0FB3A4421BD27AF00BCD99A /* ML Models */,
 				F0FB3A4321BD278700BCD99A /* Views */,
 				F0FB3A4221BD273B00BCD99A /* Sources */,
@@ -308,6 +319,7 @@
 				F03C3BFE21B8458E00B03587 /* AboutViewController.swift */,
 				F03C3BFF21B8458E00B03587 /* AboutViewController.xib */,
 				F03C3C0221B8459900B03587 /* DevViewController.swift */,
+				F0F5640F21BEC9B000E87E30 /* TumorScan.swift */,
 				F03C3C0321B8459900B03587 /* DevViewController.xib */,
 				F03C3BFB21B8457A00B03587 /* InfoViewController.xib */,
 				F03C3BF721B8442100B03587 /* HomeViewController.xib */,
@@ -500,6 +512,7 @@
 				F06A20F821B781C90075738C /* ViewController.swift in Sources */,
 				F03C3BF821B8442100B03587 /* HomeViewController.swift in Sources */,
 				F01E589521B79954007FD71E /* ExampleTipsContentView.swift in Sources */,
+				F0F5641321BECC2600E87E30 /* Tumor+CoreDataClass.swift in Sources */,
 				F0FB3A5E21BDDD5500BCD99A /* Analytics.swift in Sources */,
 				F01E589621B79954007FD71E /* ExampleIrregularityContentView.swift in Sources */,
 				F01E589021B79954007FD71E /* ExampleBackgroundContentView.swift in Sources */,
@@ -508,12 +521,15 @@
 				F06A210B21B78F030075738C /* PlaceHolderViewController.swift in Sources */,
 				F01E589221B79954007FD71E /* ExampleAnimateTipsContentView.swift in Sources */,
 				F0FB3A5821BDB6FF00BCD99A /* Skin_Diagnosis.mlmodel in Sources */,
+				F0F5641621C0BB8800E87E30 /* my_parentViewController.swift in Sources */,
+				F0F5641421BECC2600E87E30 /* Tumor+CoreDataProperties.swift in Sources */,
 				F0FB3A4B21BD27C700BCD99A /* Colon_NormalCancerousRecognizer.mlmodel in Sources */,
 				F01E589321B79954007FD71E /* ExampleBasicContentView.swift in Sources */,
 				F0FB3A5A21BDC5B500BCD99A /* ImageAnalysis.swift in Sources */,
 				F060E46A21B8ECE3008F7203 /* my_adjustFontSize.swift in Sources */,
 				F0FB3A4D21BD27C700BCD99A /* Breast_NormalCancerousRecognizer.mlmodel in Sources */,
 				F01180BA21BC64F700FE2478 /* PersistentService.swift in Sources */,
+				F0F5641021BEC9B000E87E30 /* TumorScan.swift in Sources */,
 				F0F0F7BA21BCC8C900420595 /* OncoVision.swift in Sources */,
 				F0FB3A5621BDA9BA00BCD99A /* Skin_NormalCancerousRecognizer.mlmodel in Sources */,
 				F01180B721BC527500FE2478 /* ScanCollectionViewCell.swift in Sources */,

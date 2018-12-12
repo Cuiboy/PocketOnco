@@ -9,9 +9,15 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Raleway-Regular.ttf">
+            <string>Raleway-Regular</string>
+        </array>
+    </customFonts>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="PocketOnco" customModuleProvider="target">
             <connections>
+                <outlet property="noScanLabel" destination="tr0-WR-QD2" id="0Y6-kB-vo4"/>
                 <outlet property="segmentioView" destination="qfc-VD-Bjn" id="Zc4-Lk-8Sn"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -25,16 +31,28 @@
                     <rect key="frame" x="0.0" y="44" width="414" height="134.5"/>
                     <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Past Scans" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tr0-WR-QD2">
+                    <rect key="frame" x="35" y="477" width="344" height="52"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="52" id="14S-tt-0Ae"/>
+                        <constraint firstAttribute="width" constant="344" id="J9S-gw-OhM"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="24"/>
+                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="qfc-VD-Bjn" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="69u-UD-GYY"/>
+                <constraint firstItem="tr0-WR-QD2" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="8gn-Pg-ZpC"/>
                 <constraint firstItem="qfc-VD-Bjn" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Dad-Yo-TNT"/>
+                <constraint firstItem="tr0-WR-QD2" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" constant="50" id="P7R-Rb-hTl"/>
                 <constraint firstItem="qfc-VD-Bjn" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="ieG-6B-S3N"/>
                 <constraint firstItem="qfc-VD-Bjn" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.15" id="xPE-1j-06d"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <point key="canvasLocation" x="42" y="36"/>
+            <point key="canvasLocation" x="40.579710144927539" y="35.491071428571423"/>
         </view>
     </objects>
 </document>

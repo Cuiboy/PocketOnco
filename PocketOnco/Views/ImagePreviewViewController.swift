@@ -125,6 +125,7 @@ class ImagePreviewViewController: UIViewController, UIGestureRecognizerDelegate 
                 vc.tumor = self.endResult
                 vc.tumorImage = self.image
                 vc.tumorType = self.type
+                 ScanDetailViewController.isPresenting = false
             }
         }
     }

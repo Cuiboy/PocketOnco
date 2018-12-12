@@ -22,7 +22,7 @@ enum TabBars {
         customTabBarController.tabBar.backgroundImage = UIImage(named: "background-light")
         customTabBarController.shouldHijackHandler = {
             customTabBarController, viewController, index in
-            if index == 2 {
+            if index == 1 {
                 return true
             }
             return false
@@ -39,18 +39,18 @@ enum TabBars {
                 alertController.addAction(Action("Take a photo", style: .default, handler: { (action) in
                     let storyboard = UIStoryboard(name: "Main", bundle: nil)
                     let vc = storyboard.instantiateViewController(withIdentifier: "addImage")
+                    HomeViewController.isOpen = true
                     PickTypeViewController.camera = true
                     customTabBarController?.selectedViewController!.present(vc, animated: true)
                 }))
                     alertController.addAction(Action("Select from album", style: .default, handler: { (action) in
                         let storyboard = UIStoryboard(name: "Main", bundle: nil)
                         let vc = storyboard.instantiateViewController(withIdentifier: "addImage")
+                         HomeViewController.isOpen = true 
                         PickTypeViewController.camera = false
                         customTabBarController?.selectedViewController!.present(vc, animated: true)
                     }))
-                        alertController.addAction(Action("Choose from sample", style: .default, handler: { (action) in
-                            //something happens
-                        }))
+                        
                 alertController.addAction(Action("Cancel", style: .cancel, handler: { (action) in
                     //something happens
                 }))

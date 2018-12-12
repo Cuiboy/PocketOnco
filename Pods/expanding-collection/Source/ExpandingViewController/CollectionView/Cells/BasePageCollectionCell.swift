@@ -45,7 +45,7 @@ open class BasePageCollectionCell: UICollectionViewCell {
     /// constraints for frontContainerView must connectid from xib or storyboard
     @IBOutlet open var frontConstraintY: NSLayoutConstraint!
 
-    var shadowView: UIView?
+    open var shadowView: UIView?
 
     /// A Boolean value that indicates whether the cell is opened.
     open var isOpened = false
